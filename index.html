@@ -5,9 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3D Pro</title>
     <link rel="stylesheet" href="styles.css">
-    <!-- <link rel="stylesheet" href="mediaqueries.css"/> -->
+    <link rel="stylesheet" href="mediaqueries.css"/>
 </head>
 <body>
+    <nav id="desktop-nav">
+        <div class="logo"></div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#why3d">Why 3D</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#rates">Rates</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+    </nav>
+    
+    <nav id="hamburger-nav">
+        <div class="logo"></div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#why3d" onclick="toggleMenu()">Why 3D</a></li>
+                <li><a href="#service" onclick="toggleMenu()">Services</a></li>
+                <li><a href="#rates" onclick="toggleMenu()">Rates</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
 
+    <section id="profile">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+    </section>
+
+    <section id="why3d">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+    </section>
+
+    <section id="service">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+    </section>
+
+    <section id="rates">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>
